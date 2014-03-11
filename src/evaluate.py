@@ -1,5 +1,5 @@
-truth_file = "groundtruth.txt"
-predict_file = "predict.txt"
+truth_file = "../result/groundtruth.txt"
+predict_file = "../result/predict.txt"
 
 def build_dict(file_name):
     my_dict = {}

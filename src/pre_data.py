@@ -22,14 +22,14 @@ def pre_data(in_name, out_name, pattern):
 
 
 #source data
-in_name = "t_alibaba_data.csv"
+in_name = "../data/t_alibaba_data.csv"
 
 #for train
 pattern = r'.*,.*,.*,[4-7]'
-out_name = "train.csv"
+out_name = "../data/train.csv"
 pre_data(in_name, out_name, pattern)
 
 #for test
 pattern = r'.*,.*,.*,8'
-out_name = "test.csv"
+out_name = "../data/test.csv"
 pre_data(in_name, out_name, pattern)

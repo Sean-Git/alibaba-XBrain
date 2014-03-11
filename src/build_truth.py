@@ -1,5 +1,5 @@
-in_name = "test.csv"
-out_name = "groundtruth.txt"
+in_name = "../data/test.csv"
+out_name = "../result/groundtruth.txt"
 
 def build_truth(in_name, out_name):
     infile = open(in_name, "r")
