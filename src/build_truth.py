@@ -1,6 +1,3 @@
-in_name = "../data/test.csv"
-out_name = "../result/groundtruth.txt"
-
 def build_truth(in_name, out_name):
     infile = open(in_name, "r")
     truth_dict = {} #build a groundtruth_dict first, them write it into outfile
@@ -32,6 +29,12 @@ def build_truth(in_name, out_name):
     infile.close()
     outfile.close()
 
+
+###                     ###
+#       Run and Set       #
+###                     ###
+in_name = "../data/test.csv"                #!
+out_name = "../result/groundtruth.txt"      #!
 #run build_truth
 build_truth(in_name,out_name)
 
