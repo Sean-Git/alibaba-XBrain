@@ -1,9 +1,0 @@
-1. Our original hypothesis that behavior 3-buying leads to 4-bought is wrong!
-Fact:
-  By simply testing on this hypothesis, I got a poor performance.
-  Precision: 2.6%(2/76)    Recall: 0.3%(2/689)    F-score: 0.5%
-
-2. I made another test that predict all users would buy all brands.
-Fact:
-  The performance indicates that we cannot get 100% performance. There exist new users or new brands that we cannot predict. Thus making the prediction naturally has upper bound below 100%.
-  Precision: 0.0%(596/689)    Recall: 86.5%(596/689)    F-score: 0.0%
